@@ -1,0 +1,151 @@
+.cards-row{
+    display:flex;
+    gap:20px;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+/* ---------------- Main Card ---------------- */
+
+.card{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:18px;
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
+}
+
+.card h3{
+    color:#2c3e50;
+    margin-bottom:18px;
+}
+
+.card p{
+    color:#666;
+    line-height:1.6;
+}
+
+/* ---------------- Mood Card ---------------- */
+
+.moods{
+    display:flex;
+    justify-content:space-between;
+    margin:25px 0;
+}
+
+.moods button{
+    width:60px;
+    height:60px;
+    border:none;
+    border-radius:15px;
+    background:#f3fbf5;
+    cursor:pointer;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.moods span{
+    font-size:11px;
+    margin-top:5px;
+}
+
+.check-btn{
+    background:#67c587;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+/* ================= SECOND ROW ================= */
+
+/* Mood Overview */
+
+.mood-overview{
+    flex:1.5;
+    min-width:300px;
+}
+
+.card-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.card-header span{
+    color:gray;
+    font-size:14px;
+}
+
+.graph{
+    height:180px;
+    background:#f6fff8;
+    border-radius:18px;
+    position:relative;
+}
+
+.line{
+    position:absolute;
+    width:85%;
+    height:4px;
+    background:#67c587;
+    top:50%;
+    left:30px;
+    transform:rotate(-8deg);
+    border-radius:10px;
+}
+
+/* Calendar */
+
+.calendar-card{
+    flex:1;
+    min-width:250px;
+}
+
+.calendar-grid{
+    display:grid;
+    grid-template-columns:repeat(7,35px);
+    justify-content:center;
+    gap:10px;
+    text-align:center;
+}
+
+.calendar-grid div{
+    width:35px;
+    height:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+    font-size:14px;
+}
+
+.calendar-grid div:hover{
+    background:#dff6e6;
+}
+
+/* Daily Prompt */
+
+.prompt-card{
+    flex:0.8;
+    min-width:220px;
+}
+
+.prompt-card button{
+    margin-top:20px;
+    border:none;
+    background:#67c587;
+    color:white;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.prompt-card button:hover{
+    background:#56b374;
+}

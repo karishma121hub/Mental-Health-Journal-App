@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.journal{
+
+    display:flex;
+
+    height:100vh;
+
+    background:#F6FCF8;
+
+    padding:12px;
+
+    gap:15px;
+
+    overflow:hidden;
+
+}
+
+
+.main-content{
+
+    flex:1;
+
+    background:#F8FCF9;
+
+    border-radius:22px;
+
+    padding:18px 25px;
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+}
+.journal-page{
+    background:#F6FCF8;
+    min-height:100%;
+    padding:30px;
+}
+
+.journal-header h1{
+    color:#2C3E50;
+    font-size:36px;
+}
+
+.journal-header p{
+    color:#666;
+    margin-top:8px;
+    margin-bottom:30px;
+}
+
+.journal-container{
+    display:flex;
+    gap:25px;
+}
+
+/* Left Side */
+
+.journal-form{
+    flex:2;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.prompt-card{
+    background:#EDF9F1;
+    padding:18px;
+    border-radius:15px;
+    margin-bottom:25px;
+}
+
+.prompt-card h3{
+    color:#2C3E50;
+}
+
+.prompt-card p{
+    color:#666;
+    margin-top:8px;
+}
+
+.journal-form label{
+    display:block;
+    margin-top:20px;
+    margin-bottom:8px;
+    font-weight:600;
+    color:#2C3E50;
+}
+
+.journal-form input,
+.journal-form textarea{
+    width:100%;
+    padding:14px;
+    border:1px solid #D8E5DB;
+    border-radius:12px;
+    outline:none;
+    font-size:15px;
+    margin-bottom:10px;
+}
+
+.journal-form textarea{
+    resize:none;
+}
+
+.mood-buttons{
+    display:flex;
+    gap:12px;
+}
+
+.mood-buttons button{
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:15px;
+    background:#EEF8F1;
+    cursor:pointer;
+    font-size:24px;
+    transition:.3s;
+}
+
+.mood-buttons button:hover{
+    background:#67C587;
+}
+
+.save-btn{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#67C587;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+}
+
+.save-btn:hover{
+    background:#54B474;
+}
+
+/* Right Side */
+
+.journal-side{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.stats-card,
+.quote-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.stats-card h3,
+.quote-card h3{
+    margin-bottom:20px;
+    color:#2C3E50;
+}
+
+.stat{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:18px;
+    padding-bottom:12px;
+    border-bottom:1px solid #E8EFEA;
+}
+
+.quote-card p{
+    color:#666;
+    line-height:1.8;
+}
