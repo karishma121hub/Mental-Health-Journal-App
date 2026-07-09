@@ -6,36 +6,21 @@
 
 
 .journal{
-
     display:flex;
-
     height:100vh;
-
     background:#F6FCF8;
-
     padding:12px;
-
     gap:15px;
-
     overflow:hidden;
-
 }
 
-
 .main-content{
-
     flex:1;
-
     background:#F8FCF9;
-
     border-radius:22px;
-
     padding:18px 25px;
-
     overflow-y:auto;
-
     overflow-x:hidden;
-
 }
 .journal-page{
     background:#F6FCF8;

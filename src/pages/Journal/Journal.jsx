@@ -4,18 +4,8 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 
 function Journal() {
   return (
-    <div className="journal">
-
-      {/* Sidebar */}
-      <Sidebar />
-
-      {/* Main Content */}
-      <div className="main-content">
-
-        {/* Navbar */}
-        <Navbar />
-
-        {/* Header */}
+    <div className="journal"><Sidebar />
+      <div className="main-content"><Navbar />
         <div className="journal-page">
 
           <div className="journal-header">
