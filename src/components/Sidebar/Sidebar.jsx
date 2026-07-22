@@ -39,30 +39,45 @@ function Sidebar() {
           </li>
         </NavLink>
 
-
-        <li>
+        <NavLink to="/moodtracker" className="menu-link">
+          <li>
           <FaSmile /> Mood Tracker
-        </li>
+          </li>
+        </NavLink>
 
-        <li>
-          <FaUserMd /> Therapists
-        </li>
+        
+        <NavLink to="/therapists" className="menu-link">
+          <li>
+            <FaUserMd /> Therapists
+          </li>
+          
+        </NavLink>
 
-        <li>
-          <FaLeaf /> Wellness Hub
-        </li>
 
+        <NavLink to="/wellnesshub" className="menu-link">
+          <li>
+            <FaLeaf /> WellnessHub
+          </li>
+        </NavLink>
+
+        <NavLink to="/insights" className="menu-link">
         <li>
           <FaChartLine /> Insights
         </li>
-
+        </NavLink>
+       
+       <NavLink to="/breathing" className="menu-link">
         <li>
           <FaWind /> Breathing
         </li>
+       </NavLink>
 
+
+       <NavLink to="/setting" className="menu-link">
         <li>
           <FaCog /> Settings
         </li>
+        </NavLink>
 
 
       </ul>

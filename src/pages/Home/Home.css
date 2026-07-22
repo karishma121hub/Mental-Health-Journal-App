@@ -21,8 +21,8 @@ body{
 .main-content{
     flex:1;
     background:#F8FCF9;
-    border-radius:22px;
-    padding:18px 25px;
+    border-radius:25px;
+    padding:18px 30px 30px;
     overflow-y:auto;
     overflow-x:hidden;
 }

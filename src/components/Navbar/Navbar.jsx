@@ -5,10 +5,7 @@ function Navbar() {
   return (
     <div className="navbar">
 
-      <div className="welcome-text">
-        <h1>Good Morning, Karishma 🌼</h1>
-        <p>How are you feeling today?</p>
-      </div>
+      <div></div>
 
       <div className="notification">
         <FaBell />

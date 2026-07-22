@@ -15,7 +15,15 @@ function Home() {
       <Sidebar />
 
       <div className="main-content">
+
+        {/* Navbar (Notification Bell) */}
         <Navbar />
+
+        
+        <div className="home-header">
+          <h1>Good Morning, Karishma 🌸</h1>
+          <p>How are you feeling today?</p>
+        </div>
 
         {/* First Row */}
         <div className="cards-row">
@@ -30,6 +38,7 @@ function Home() {
           <CalendarCard />
           <DailyPromptCard />
         </div>
+
       </div>
     </div>
   );

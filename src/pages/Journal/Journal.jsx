@@ -1,11 +1,9 @@
 import "./Journal.css";
-import Navbar from "../../components/Navbar/Navbar";
 import Sidebar from "../../components/Sidebar/Sidebar";
 
 function Journal() {
   return (
     <div className="journal"><Sidebar />
-      <div className="main-content"><Navbar />
         <div className="journal-page">
 
           <div className="journal-header">
@@ -121,7 +119,7 @@ function Journal() {
 
       </div>
 
-    </div>
+   
   );
 }
 

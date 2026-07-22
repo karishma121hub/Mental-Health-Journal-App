@@ -1,0 +1,150 @@
+.therapist-header{
+    margin-bottom:25px;
+}
+
+.therapist-header h1{
+    font-size:38px;
+    color:#24344d;
+}
+
+.therapist-header p{
+    color:#667;
+    margin-top:8px;
+}
+
+.search-box{
+    margin:25px 0;
+}
+
+.search-box input{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:15px;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+    outline:none;
+    font-size:16px;
+}
+
+.featured-row{
+    display:flex;
+    gap:25px;
+    margin-bottom:25px;
+}
+
+.featured-card{
+    flex:1;
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
+}
+
+.featured-card img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+.featured-card h3{
+    color:#24344d;
+}
+
+.featured-card p{
+    color:#777;
+    margin:10px 0;
+}
+
+.featured-card button{
+    background:#67c587;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.list-card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
+}
+
+.list-card h2{
+    margin-bottom:20px;
+    color:#24344d;
+}
+
+.therapist-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:18px 0;
+    border-bottom:1px solid #edf2ee;
+}
+
+.therapist-item:last-child{
+    border:none;
+}
+
+.therapist-item img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.therapist-item div{
+    flex:1;
+    margin-left:20px;
+}
+
+.therapist-item p{
+    color:#666;
+}
+
+.therapist-item button{
+    background:#67c587;
+    color:white;
+    border:none;
+    padding:10px 22px;
+    border-radius:22px;
+    cursor:pointer;
+}
+
+.help-card{
+    margin-top:25px;
+    background:#edf9f1;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+}
+
+.help-card h2{
+    color:#24344d;
+}
+
+.help-card p{
+    margin:15px 0;
+    color:#666;
+    line-height:1.7;
+}
+
+.help-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.help-buttons button{
+    background:#67c587;
+    color:white;
+    border:none;
+    padding:14px 26px;
+    border-radius:30px;
+    cursor:pointer;
+}
