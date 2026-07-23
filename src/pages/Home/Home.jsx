@@ -1,5 +1,4 @@
 import Sidebar from "../../components/Sidebar/Sidebar";
-import Navbar from "../../components/Navbar/Navbar";
 import MoodCard from "../../components/Cards/MoodCard";
 import QuoteCard from "../../components/Cards/QuoteCard";
 import StreakCard from "../../components/Cards/StreakCard";
@@ -15,10 +14,6 @@ function Home() {
       <Sidebar />
 
       <div className="main-content">
-
-        {/* Navbar (Notification Bell) */}
-        <Navbar />
-
         
         <div className="home-header">
           <h1>Good Morning, Karishma 🌸</h1>

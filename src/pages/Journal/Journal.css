@@ -24,8 +24,8 @@
 }
 .journal-page{
     background:#F6FCF8;
-    min-height:100vh;
-  
+    min-height:100%;
+    padding:30px;
 }
 
 .journal-header h1{
